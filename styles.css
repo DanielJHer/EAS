@@ -1,7 +1,25 @@
-#main {
+
+.row {
+    display: block;
+    float: center;
+    width: 100%;
+    border: 1px black;
 
 }
 
-.div {
-border: 1px black;
+.box {
+    display: flex;
+    float: left;
+    margin: 0 auto;
+    background: pink;
+    height: 10px;
+    width: 10px;
+    border: 1px black;
+  
+}
+
+#container {
+    max-width: 500px;
+    max-height: 500px;
+    justify-content: center;
 }
